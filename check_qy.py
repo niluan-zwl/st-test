@@ -47,7 +47,7 @@ def ana_data(domain_data):
             per_3xx = round(float(data['3xx']) / domain_data[domain]['clicks'],2)
             per_4xx = round(float(data['4xx']) / domain_data[domain]['clicks'],2)
             per_5xx = round(float(data['5xx']) / domain_data[domain]['clicks'],2)
-            print 'Stamp:%s   Domain:%-30s  2xx:%.2f  3xx:%.2f  4xx:%.2f  5xx:%2.f  Clicks:%d' % (local_time, domain, per_2xx, per_3xx, per_4xx, per_5xx, domain_data[domain]['clicks'])
+            print 'Stamp:%s   Domain:%-30s  2xx:%.2f  3xx:%.2f  4xx:%.2f  5xx:%.2f  Clicks:%d' % (local_time, domain, per_2xx, per_3xx, per_4xx, per_5xx, domain_data[domain]['clicks'])
         else:
             print 'Stamp:%s   Domain:%-30s  2xx:0  3xx:0  4xx:0  5xx:0  Clicks:%d' % (local_time, domain, domain_data[domain]['clicks'])
 
