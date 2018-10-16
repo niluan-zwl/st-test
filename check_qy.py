@@ -39,7 +39,7 @@ def ana_data(domain_data):
             if int(k) >=200 and int(k) < 300: domain_status[domain]['2xx'] +=v
             if int(k) >=300 and int(k) < 400: domain_status[domain]['3xx'] +=v
             if int(k) >=400 and int(k) < 500: domain_status[domain]['4xx'] +=v
-            if int(k) >=500 and int(k) < 500: domain_status[domain]['5xx'] +=v
+            if int(k) >=500: domain_status[domain]['5xx'] +=v
     
     for domain, data in domain_status.items():
         if domain_data[domain]['clicks'] !=0:
