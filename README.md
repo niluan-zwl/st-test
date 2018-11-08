@@ -1,2 +1,2 @@
-# 2018-11-08 update check_qy.py
-# 2018-11-08 update check_qy.py
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
